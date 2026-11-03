@@ -379,13 +379,19 @@ body {
   box-sizing: border-box;
 }
 
-/* Vídeo Swan */
+/* Video Swan */
 .project-media,
 .project-card video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.project-video-embed {
+  border: 0;
+  pointer-events: none;
+  transform: scale(1.2);
 }
 
 /* AUTOMATIC SLIDESHOW */
